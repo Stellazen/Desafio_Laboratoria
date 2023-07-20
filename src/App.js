@@ -46,7 +46,7 @@ function App() {
     <div>
       <Header />
       <div className='fundo'>
-        <p className='paragrafo'>Visualização:</p>
+        <p className='paragrafo visualizar'>Visualização:</p>
         <div className='optionsCards'> 
           <button
            onClick={layoutChange} className='verticalButton'>

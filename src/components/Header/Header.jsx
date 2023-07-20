@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Header.module.css';
-import Logo from '../../images/socarrao.webp'
+import Logo from '../../images/lagartixa_verde.png'
 
 function Header(){
     return(
