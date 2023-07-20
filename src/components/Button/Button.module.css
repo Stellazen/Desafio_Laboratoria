@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fontePrincipal: 'Assistant', sans-serif;
+    --verde:#30bb57;
+    --amarelo:#fade00;
+    --azul: rgb(49, 116, 241);
+}
+
+.principalButton{
+    font-family: var(--fontePrincipal);
+    font-weight: 300;
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--azul);
+    border: none;
+    padding: 5px;
+}
+
+.principalButton:hover{
+    cursor: pointer;
+}
