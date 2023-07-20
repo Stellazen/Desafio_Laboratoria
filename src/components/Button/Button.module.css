@@ -3,19 +3,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
     --fontePrincipal: 'Assistant', sans-serif;
     --verde:#30bb57;
     --amarelo:#fade00;
-    --azul: rgb(49, 116, 241);
+    --azul: #3174f1;
 }
 
 .principalButton{
-    font-family: var(--fontePrincipal);
+    font-family: 'Assistant', sans-serif;
     font-weight: 300;
-    width: 140px;
+    width: 143px;
     height: 30px;
     border-radius: 10px;
     color: white;
@@ -26,4 +27,8 @@
 
 .principalButton:hover{
     cursor: pointer;
+    border: 2px solid var(--azul);
+    background-color: white;
+    color: black;
+    font-weight: 400;
 }

@@ -11,12 +11,52 @@
     --amarelo:#fade00;
 }
 
+.fundo{
+    background-image: url('./images/fundo-novo.png');
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
 .imgLogo{
     width: 100px;
     height: 100px;
 }
 
-.p{
+.verticalButton{
+    border: 1px solid var(--verde);
+    background-color: white;
+    width: 20px;
+    height: 40px;
+    margin: 3px;
+}
+
+.horizontalButton{
+    border: 1px solid var(--verde);
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    margin: 3px;
+}
+
+.verticalButton:hover, .horizontalButton:hover{
+    cursor: pointer;
+    background-color: var(--amarelo);
+}
+
+.bodyPrincipal.vertical{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bodyPrincipal.horizontal{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo{
     font-family: var(--fontePrincipal);
 }
 
