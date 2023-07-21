@@ -19,12 +19,12 @@
 .options{
     display: flex;
     gap: 20px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .optionsCards{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .verticalButton{
