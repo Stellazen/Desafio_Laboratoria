@@ -8,7 +8,7 @@ function FiltroCambio(props){
                 <select className={style.selecionar} name='filtro' id='filtroCambio' onChange={props.onChange} value={props.filtro}>
                 <option value=""></option>
                 <option value="Automático">Automático</option>
-                <option value="Manual">Manual</option>
+                <option value="Câmbio Manual">Manual</option>
                 </select>
             </div>
     )
