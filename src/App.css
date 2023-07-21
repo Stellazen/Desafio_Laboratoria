@@ -11,17 +11,15 @@
     --amarelo:#fade00;
 }
 
-.fundo{
-    background-image: url('./images/backgroundCopa.png');
-    background-repeat: repeat-y;
-    background-position: center top;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
 .imgLogo{
     width: 100px;
     height: 100px;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .optionsCards{
@@ -57,7 +55,9 @@
     justify-content: center;
 }
 
-.paragrafo{
+
+
+.paragrafo, label, option{
     font-family: var(--fontePrincipal);
 }
 

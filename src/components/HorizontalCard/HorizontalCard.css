@@ -175,7 +175,7 @@
     }
 }
 
-@media (min-width:400px) and (max-width:515px){
+@media (min-width:420px) and (max-width:515px){
     .principalContainer.vertical{
         width: 180px;
         height: 380px;
