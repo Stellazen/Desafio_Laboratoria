@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fontePrincipal: 'Assistant', sans-serif;
+    --verde:#30bb57;
+    --amarelo:#fade00;
+}
+
+.imgLogo{
+    width: 100px;
+    height: 100px;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.optionsCards{
+    display: flex;
+    align-items: center;
+}
+
+.verticalButton{
+    width: 20px;
+    height: 40px;
+}
+
+.horizontalButton{
+    width: 40px;
+    height: 20px;
+}
+
+.horizontalButton , .verticalButton{
+    border: 1px solid var(--verde);
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.verticalButton:hover, .horizontalButton:hover{
+    cursor: pointer;
+    background-color: var(--amarelo);
+}
+
+.bodyPrincipal.vertical, .bodyPrincipal.horizontal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.paragrafo, label, option{
+    font-family: var(--fontePrincipal);
+}
+
+.paragrafo.visualizar{
+    background-color: #38bd5d8c;
+    width: 80px;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.finalPagina{
+    height: 100px;
+    list-style: none;
+}
