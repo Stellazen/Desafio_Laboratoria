@@ -14,6 +14,5 @@ function FiltroCambio(props){
     )
 }
 
-// <select name='filtro' id='filtroCambio' onChange={filtrarPorCambio} value={cambioFiltrado}></select>
 
 export default FiltroCambio;
