@@ -4,6 +4,12 @@ Desafio proposto pela SóCarrão.com durante o talent fest da Laboratória. A S�
 
 Foi disponibilizado um JSON, contendo dados de aproximadamente 50 veículos que prercisou ser consumido em um projeto novo, do zero. Este projeto foi desenvolvido com React e foi preciso fazer as listagens dos veículos e apresentados em formato de card.
 
+## Tecnologias Utilizadas
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width='40px' /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  width='40px' />
+
+<a href="https://desafio-laboratoria-stella.vercel.app/">👩🏻‍💻Link do projeto✨</a>   
+
 
 ## Requisitos
 
@@ -18,11 +24,7 @@ Foi disponibilizado um JSON, contendo dados de aproximadamente 50 veículos que 
 * Detalhes do Veículo: Cada card exibirá as seguintes informações sobre o veículo: Marca, Modelo, Versão, Transmissão (Automática ou Manual), Ano, Preço, Quilometragem, Botão Simular Financiamento", Botão "Entrar em contato".
 
 
-## Tecnologias Utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width='40px' /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width='40px' /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"  width='40px' />
-
-<a href="https://desafio-laboratoria-stella.vercel.app/">👩🏻‍💻Link do projeto✨</a>          
           
           
           
