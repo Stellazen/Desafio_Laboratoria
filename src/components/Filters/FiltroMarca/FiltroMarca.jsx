@@ -26,6 +26,5 @@ function FiltroMarca(props){
     )
 }
 
-// <select name="filtro" id="filtroMarca" onChange={filtrarPorMarca} value={marcaFiltrada}>
 
 export default FiltroMarca;
